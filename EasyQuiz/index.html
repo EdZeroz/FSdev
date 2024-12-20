@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+   <div>
+        <div class="quiz-container1">
+            <h1></h1>
+            <p id="question">PIM ย่อมาจากอะไร ?</p>
+            <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+            <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+            <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+            <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+            <p id="result"></p>
+        </div>
+        <div class="quiz-container2">
+        <h1></h1>
+        <p id="question">คนทำชื่ออะไร ?</p>
+        <button class="button" onclick="checkAnswer2('a')">A) มุก</button>
+        <button class="button" onclick="checkAnswer2('b')">B) มิค</button>
+        <button class="button" onclick="checkAnswer2('c')">C) แม็ก</button>
+        <button class="button" onclick="checkAnswer2('d')">D) มัค</button>
+        <p id="result2"></p>
+        </div>
+        <div id="result3"></div>
+<script src="index.js"></script>
+</body>
+</html>
